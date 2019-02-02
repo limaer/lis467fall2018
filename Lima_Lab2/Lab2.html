@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>LIS467 Lab 2</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+	<h2>LIS467 Lab 2 <br>by Eliana Lima<br>
+	31 January 2019</h2>
+	<! -- Created on Thursday, 31 January 2019 by Eliana Lima -->
+	<p>Please fill out this form. It will help dining services better serve you.</p>
+	<form method="post" action="dummyscript.php">
+	<!-- We do not have a script yet, so dummyscript.php does not exist; in the real world, we would need a script name here -->
+	<p>Question 1: Do you like seafood?<input type="checkbox" value="yes" name="seafood">Check if "yes."</p>
+	<p>Question 2: What is your favorite drink? <input type="text"></p>
+	<p>Question 3: Please choose which vegetable you like the least:
+		<select name="leastveggie">
+			<option value="Broccoli">Broccoli</option>
+			<option value="Brussel Sprouts">Brussel Sprouts</option>
+			<option value="Parsnips">Parsnips</option>
+			<option value="Carrot">Carrot</option>
+			<option value="Onion">Onion</option>
+		</select>
+
+		</p>
+	<p>Question 4: Please describe your ideal lunch meal: <textarea rows="8" cols="45" name="idealmeal">Type your answer here...</textarea></p>
+	<p><input type="submit" value="Send off form"><input type="reset" value="Clear the form"></p>
+	<p>Question 5: Please pick the most important food option from the list below:
+	</p>
+		<p>
+		A. Free silverware <input type="radio" name="snow" value="Free silverware"><br>
+		B. Paper plates <input type="radio" name="snow" value="Paper plates"><br>
+		C. Fast checkout (i.e. no lines) <input type="radio" name="snow" value="Fast checkout"><br>
+		D. Friendly food servers <input type="radio" name="snow" value="Friendly food servers"><br>
+		E. Later hours of operation <input type="radio" name="snow" value="Later hours of operation">
+		</p>
+	</form>
+
+</body>
+</html>
